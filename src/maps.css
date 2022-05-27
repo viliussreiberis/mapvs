@@ -1,0 +1,153 @@
+html {
+  font-size: 62.5%;
+  box-sizing: inherit;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 80rem;
+  width: 120rem;
+  padding: 4rem;  
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.map {
+    height: 100%;
+    width: 100%;
+    
+  }
+
+.marker {
+    background-image: url('https://www.cp-desk.com/wp-content/uploads/2019/02/map-marker-free-download-png.png');
+    background-size: cover;
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: yellow;
+    border-radius: 11px;
+    border: solid 3px darkslategray;
+  }
+
+.marker-delivery {
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: red;
+  }
+
+
+.search-bar {
+  margin-top: 2rem;
+}
+
+.inputs {
+  display: flex;
+  margin-top: 1.5rem;
+}
+
+.inputs:first-child {
+  margin-right: 2rem;
+}
+
+.longitude {
+  margin-right: 2rem;
+  
+}
+
+input {
+  padding: 1rem;
+}
+
+  @media only screen and (max-width:1175px) {
+   
+.container {
+  height: 80rem;
+  width: 110rem;
+  padding: 4rem;  
+  box-sizing: border-box;
+}
+   }
+
+  @media only screen and (max-width:1024px) {
+   html {
+     font-size: 62%;
+   }
+
+   .app {
+    padding: 4rem; 
+   }
+
+   
+   .container {
+    height: 80rem;
+    width: 100rem;
+     
+    box-sizing: border-box;
+  }
+
+  }
+
+  @media only screen and (max-width:968px) {
+    html {
+      font-size: 62%;
+    }
+    .container {
+     height: 60rem;
+     width: 80rem;
+     padding: 4rem;  
+     box-sizing: border-box;
+   }
+ 
+   }
+
+  @media only screen and (max-width:768px) {
+    html {
+      font-size: 60%;
+    }
+
+    .container {
+      height: 75rem;
+      width: 75rem;
+      padding: 4rem;  
+      box-sizing: border-box;
+    }
+   }
+
+   @media only screen and (max-width:640px) {
+    html {
+      font-size: 58%;
+    }
+
+    .container {
+      height: 50rem;
+      width: 50rem;
+      padding: 4rem;  
+      box-sizing: border-box;
+    }
+   }
+
+   @media only screen and (max-width:375px) {
+    html {
+      font-size: 50%;
+    }
+
+       .container {
+      height: 40rem;
+      width: 40rem;
+      padding: 4rem;  
+      box-sizing: border-box;
+    }
+   }
